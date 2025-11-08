@@ -1,6 +1,7 @@
-
-CampusExe: A Multi-Agent AI System for MSRIT
-
+=========================
+CAMPUS EXE 
+-A Multi-Agent AI System for MSRIT
+========================
 
 CampusExe is a multi-agent AI system built with the Google Agent Development Kit (ADK),
 customized for M. S. Ramaiah Institute of Technology (MSRIT), Bengaluru.
@@ -163,4 +164,5 @@ adk run manager
 
 END OF FILE
 ============================================================
+
 
