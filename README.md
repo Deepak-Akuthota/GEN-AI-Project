@@ -1,6 +1,6 @@
-============================================================
-          CampusExe: A Multi-Agent AI System for MSRIT
-============================================================
+
+CampusExe: A Multi-Agent AI System for MSRIT
+
 
 CampusExe is a multi-agent AI system built with the Google Agent Development Kit (ADK),
 customized for M. S. Ramaiah Institute of Technology (MSRIT), Bengaluru.
@@ -9,18 +9,18 @@ It acts as an intelligent assistant for the campus, using a team of specialized 
 to handle tasks related to academics, administration, and communication.
 
 
-============================================================
+
 🤖 HOW IT WORKS: AGENT ARCHITECTURE
-============================================================
+
 
 The system uses a hierarchical agent architecture.
 A main "Manager" agent receives a request and intelligently delegates it to the
 correct specialized sub-agent to get the job done.
 
 
-------------------------------------------------------------
+
 Root Agent (The Manager)
-------------------------------------------------------------
+
 msrit_campus_manager_agent
 File: manager/agent.py
 
@@ -29,9 +29,9 @@ This is the main entry point and coordinator.
 It understands a user's request and routes it to the correct sub-agent for handling.
 
 
-------------------------------------------------------------
+
 Sub-Agents (The Specialists)
-------------------------------------------------------------
+
 
 🎓 learning_agent
 -----------------
@@ -54,7 +54,7 @@ Responsibilities:
 
 
 💬 msrit_comm_agent (Communication Agent)
------------------------------------------
+----------------
 Description:
 Manages all official campus communication.
 
@@ -84,9 +84,9 @@ Responsibilities:
 - Enables data sharing between learning, admin, communication, and insight agents
 
 
-============================================================
+
 🛠️ TECH STACK
-============================================================
+
 
 Core Framework:  Google Agent Development Kit (ADK)
 AI Model:        gemini-2.5-flash
@@ -95,9 +95,9 @@ Cloud Platform:  Google Cloud AI Platform (Vertex AI)
 Language:        Python
 
 
-============================================================
+
 🚀 GETTING STARTED
-============================================================
+
 
 -------------------------
 PREREQUISITES & INSTALLATION
@@ -150,10 +150,8 @@ GOOGLE_CLOUD_PROJECT="your-project-id"
 GOOGLE_CLOUD_LOCATION="your-region"   # e.g., us-central1
 --------------------------------
 
-
-============================================================
 ▶️ RUNNING THE AGENT
-============================================================
+======================
 
 You can start and interact with the main manager agent using the ADK CLI.
 (This assumes your agents are correctly defined in your pyproject.toml file.)
@@ -163,6 +161,6 @@ Command:
 adk run manager
 
 
-============================================================
 END OF FILE
 ============================================================
+
